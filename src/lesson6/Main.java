@@ -15,5 +15,11 @@ public class Main {
     System.out.println(cat.swim(1));
     System.out.println(cat.jumpOver(1));
     System.out.println(cat.jumpOver(3));
+    System.out.println(cat.getMaxJumpHeight());
+    System.out.println(cat.getMaxRunDistance());
+    cat.setMaxJumpHeight(3);
+    cat.setMaxRunDistance(150);
+    System.out.println(cat.getMaxJumpHeight());
+    System.out.println(cat.getMaxRunDistance());
   }
 }
